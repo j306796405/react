@@ -10,10 +10,12 @@ var {
 
 var MyProject = React.createClass({
     render: function(){
-        <View style={styles.container}>
-            <Text style={styles.item} onPress={this.tip}>showActionSheetWithOptions</Text>
-            <Text style={styles.item} onPress={this.share}>showShareActionSheetWithOptions</Text>
-        </View>
+        return (
+            <View style={styles.container}>
+                <Text style={styles.item} onPress={this.tip}>showActionSheetWithOptions</Text>
+                <Text style={styles.item} onPress={this.share}>showShareActionSheetWithOptions</Text>
+            </View>
+        )
     },
     tip: function(){
         ActionSheetIOS.showActionSheetWithOptions({
