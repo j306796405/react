@@ -1,142 +1,65 @@
-/**
- * index.ios.js.js
- * @author jianglj
- * @create 2016-02-14 15:40
- */
-'use strict';
-import React, {
-    AppRegistry,
-    Component,
+'use strict'
+var React = require('react-native');
+var {
+    Animated,
+    Easing,
+    View,
     StyleSheet,
     Text,
-    View,
-    TouchableOpacity,
-    LayoutAnimation,
-} from 'react-native';
+    AppRegistry
+    } = React;
 
-var CustomLayoutAnimation = {
-    duration: 200,
-    create: {
-        type: LayoutAnimation.Types.linear,
-        property: LayoutAnimation.Properties.opacity,
+var MyProject = React.createClass({
+    getInitialState() {
+        return {
+            fadeInOpacity: new Animated.Value(0),
+            rotation: new Animated.Value(0),
+            fontSize: new Animated.Value(0)
+        };
     },
-    update: {
-        type: LayoutAnimation.Types.curveEaseInEaseOut,
+    componentDidMount() {
+        var timing = Animated.timing;
+        Animated.parallel(['fadeInOpacity', 'rotation', 'fontSize'].map(property => {
+            return timing(this.state[property], {
+                toValue: 1,
+                duration: 1000,
+                easing: Easing.linear
+            });
+        })).start();
     },
-};
-
-class MyProject extends Component {
-
-    constructor() {
-        super();
-
-        this.state = {
-            index: 0,
-        }
-    }
-
-    onPress(index) {
-
-        // Uncomment to animate the next state change.
-        LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
-
-        // Or use a Custom Layout Animation
-        // LayoutAnimation.configureNext(CustomLayoutAnimation);
-
-        this.setState({index: index});
-    }
-
-    renderButton(index) {
-        return (
-            <TouchableOpacity key={'button' + index} style={styles.button} onPress={() => this.onPress(index)}>
-                <Text>{index}</Text>
-            </TouchableOpacity>
-        );
-    }
-
-    renderCircle(key) {
-        var size = 50;
-        return (
-            <View key={key} style={{width: size, height: size, borderRadius: size / 2.0, backgroundColor: 'sandybrown', margin: 20}}/>
-        );
-    }
-
     render() {
-
-        var leftStyle = this.state.index === 0 ? {flex: 1} : {width: 20};
-        var middleStyle = this.state.index === 2 ? {width: 20} : {flex: 1};
-        var rightStyle = {flex: 1};
-
-        var whiteHeight = this.state.index * 80;
-
-        var circles = [];
-        for (var i = 0; i < (5 + this.state.index); i++) {
-            circles.push(this.renderCircle(i));
-        }
-
-        return (
-            <View style={styles.container}>
-                <View style={styles.topButtons}>
-                    {this.renderButton(0)}
-                    {this.renderButton(1)}
-                    {this.renderButton(2)}
-                </View>
-                <View style={styles.content}>
-                    <View style={{flexDirection: 'row', height: 100}}>
-                        <View style={[leftStyle, {backgroundColor: 'firebrick'}]}/>
-                        <View style={[middleStyle, {backgroundColor: 'seagreen'}]}/>
-                        <View style={[rightStyle, {backgroundColor: 'steelblue'}]}/>
-                    </View>
-                    <View style={{height: whiteHeight, justifyContent: 'center', alignItems: 'center', overflow: 'hidden'}} removeClippedSubviews={true}>
-                        <View>
-                            <Text>Stuff Goes Here</Text>
-                        </View>
-                    </View>
-                    <View style={styles.circleContainer}>
-                        {circles}
-                    </View>
-                </View>
-            </View>
+        return (<Animated.View style={[styles.demo, {
+                    opacity: this.state.fadeInOpacity,
+                    /*transform: [{
+                        rotateZ: this.state.rotation.interpolate({
+                            inputRange: [0,1],
+                            outputRange: ['0deg', '360deg']
+                        })
+                    }]*/
+                }]}>
+                    <Animated.Text
+                        style={{
+                            fontSize: this.state.fontSize.interpolate({
+                                inputRange: [0,1],
+                                outputRange: [12,20]
+                            })
+                        }}>我骑着七彩祥云出现了😈💨
+                    </Animated.Text>
+            </Animated.View>
         );
     }
-}
+})
 
-const styles = StyleSheet.create({
-    container: {
+var styles = StyleSheet.create({
+    demo: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    topButtons: {
-        marginTop: 22,
-        flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        alignSelf: 'stretch',
-        backgroundColor: 'lightblue',
-    },
-    button: {
-        flex: 1,
-        height: 60,
-        alignSelf: 'stretch',
         backgroundColor: 'white',
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 8,
     },
-    content: {
-        flex: 1,
-        alignSelf: 'stretch',
-    },
-    circleContainer: {
-        flexDirection: 'row',
-        flex: 1,
-        flexWrap: 'wrap',
-        padding: 30,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-});
+    text: {
+        fontSize: 30
+    }
+})
 
 AppRegistry.registerComponent('MyProject', () => MyProject);
