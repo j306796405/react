@@ -84,42 +84,38 @@ class Home extends Component {
             ? (<View />)
             : (
                 <View style={styles.base_container}>
-                    <View style={styles.container}>
-                        <View style={styles.headerWrapper}>
-                            <Image source={{uri: this.homeData.福利[0].url}} style={{flex: 1}}></Image>
-                            <View style={styles.editorWrapper}>
-                                <Text style={styles.imageEditors}>{ 'via.' + this.homeData.福利[0].who }</Text>
+                    <View style={styles.headerWrapper}>
+                        <Image source={{uri: this.homeData.福利[0].url}} style={{flex: 1}} />
+                        <View style={styles.editorWrapper}>
+                            <Text style={styles.imageEditors}>{ 'via.' + this.homeData.福利[0].who }</Text>
+                        </View>
+                    </View>
+                    <View style={styles.contentWrapper}>
+                        <TouchableHighlight
+                            style={{flex: 2}}
+                            underlayColor={'#06c'}
+                            onPress={() => {
+                                this.props.navigator.push({
+                                    component: WebViewPage,
+                                    url: this.homeData.休息视频[0].url
+                                })
+                            }}
+                        >
+                            <View style={styles.container}>
+                                <Text style={styles.videoTitle}>{this.homeData.休息视频[0].desc}</Text>
+                                <Text style={styles.dateAuthor}>{this.listData[0].date + ' via.' + this.homeData.休息视频[0].who}</Text>
+                                <Text style={styles.toVideo}>--> 去看视频~</Text>
                             </View>
-                        </View>
-                        <View style={styles.contentWrapper}>
-                            <TouchableHighlight
-                                style={{flex: 2, backgroundColor: 'red'}}
-                                underlayColor={'#06c'}
-                                onPress={
-                                    () => {
-                                        console.log('hello');
-                                        //页面跳转
-                                        this.props.navigator.push({
-                                            component: WebViewPage,
-                                            title: this.homeData.休息视频[0].desc,
-                                            url: this.homeData.休息视频[0].url
-                                        })
-                                    }}
-                            >
-                                <View style={styles.container}>
-                                    <Text style={styles.videoTitle}>{this.homeData.休息视频[0].desc}</Text>
-                                    <Text style={styles.dateAuthor}>{this.listData[0].date + ' via.' + this.homeData.休息视频[0].who}</Text>
-                                    <Text style={styles.toVideo}>--> 去看视频~</Text>
-                                </View>
-                            </TouchableHighlight>
-                            <TouchableHighlight
-                                style={styles.buttonStyle}
-                                underlayColor={'green'}
-                                opPress={() => {}}
-                            >
-                                <Text style={styles.toHistory}>查看往期</Text>
-                            </TouchableHighlight>
-                        </View>
+                        </TouchableHighlight>
+                        <TouchableHighlight
+                            style={styles.buttonStyle}
+                            underlayColor={'green'}
+                            opPress={() => {
+                                console.log('click button');
+                            }}
+                        >
+                            <Text style={styles.toHistory}>查看往期</Text>
+                        </TouchableHighlight>
                     </View>
                 </View>
             )
@@ -132,6 +128,9 @@ class Home extends Component {
     }
 
     _welcome() {
+        if(this.state.welcomeEnd){
+            return null;
+        }
         return (
             <Animated.View style={[styles.indicatorWrapper, {opacity: this.state.fadeAnimLayout}]}>
                 <Animated.View
@@ -196,10 +195,14 @@ class Home extends Component {
             }
         ).start(() => {
             //隐藏开场动画
+            this.setState({
+                welcomeEnd: true
+            })
         })
     }
 
     _skipToHistory() {
+        console.log('去列表');
         /*this.props.navigator.push({
 
         })*/

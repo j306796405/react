@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2640e0-aae5-4ed1-bc87-41c2058bc595" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/index.android.js" afterPath="$PROJECT_DIR$/base/MyProject/index.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/actionSheet/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/actionSheet/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/alert/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/alert/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/animated/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/animated/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/cameraRoll/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/cameraRoll/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/cart/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/cart/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/layoutAnimation/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/layoutAnimation/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/netInfo/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/netInfo/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/pixelRatio/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/pixelRatio/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/react-native-camera/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/react-native-camera/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/statusBarIOS/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/statusBarIOS/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/vibrationIOS/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/vibrationIOS/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/project/webview/index.ios.js" afterPath="$PROJECT_DIR$/base/MyProject/project/webview/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/MyProject/tab.js" afterPath="$PROJECT_DIR$/base/MyProject/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/app/About.js" afterPath="$PROJECT_DIR$/clone/Girls/app/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/app/DailyContent.js" afterPath="$PROJECT_DIR$/clone/Girls/app/DailyContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/app/HistoryList.js" afterPath="$PROJECT_DIR$/clone/Girls/app/HistoryList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/app/Home.js" afterPath="$PROJECT_DIR$/clone/Girls/app/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/index.android.js" afterPath="$PROJECT_DIR$/clone/Girls/index.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/Girls/index.ios.js" afterPath="$PROJECT_DIR$/clone/Girls/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/index.android.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/index.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/index.ios.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/index.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/views/about.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/views/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/views/home.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/views/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/views/login.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/views/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/views/manager.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/views/manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-app/address_book/views/message.js" afterPath="$PROJECT_DIR$/clone/react-native-app/address_book/views/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-dribbble-app/app/Loading.js" afterPath="$PROJECT_DIR$/clone/react-native-dribbble-app/app/Loading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone/react-native-dribbble-app/app/ShotList.js" afterPath="$PROJECT_DIR$/clone/react-native-dribbble-app/app/ShotList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Girls/app/Home.js" afterPath="$PROJECT_DIR$/project/Girls/app/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Girls/app/WebViewPage.js" afterPath="$PROJECT_DIR$/project/Girls/app/WebViewPage.js" />
     </list>
     <ignored path="react.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +24,7 @@
     <favorites_list name="react" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.41304347">
+    <splitter split-orientation="vertical" split-proportion="0.4347826">
       <split-first>
         <leaf>
           <file leaf-file-name="Animation.js" pinned="false" current-in-tab="false">
@@ -70,8 +40,8 @@
           <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/clone/Girls/app/Home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.851851">
-                  <caret line="119" column="31" selection-start-line="112" selection-start-column="24" selection-end-line="119" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="121" column="52" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +50,8 @@
           <file leaf-file-name="WebViewPage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/clone/Girls/app/WebViewPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2159383">
-                  <caret line="28" column="30" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="30" />
+                <state vertical-scroll-proportion="-0.13625304">
+                  <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -156,8 +126,8 @@
           <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/project/Girls/app/Home.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3074205">
-                  <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+                <state vertical-scroll-proportion="0.20588236">
+                  <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -167,7 +137,7 @@
             <entry file="file://$PROJECT_DIR$/project/Girls/app/WebViewPage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                  <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#72#0" expanded="false" />
                   </folding>
@@ -270,10 +240,6 @@
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -285,147 +251,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Girls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom-views" />
+              <option name="myItemId" value="MyProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,14 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clone/Girls/app/HistoryList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Girls/app/utils/RequestUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8773947">
@@ -612,6 +434,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/Girls/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clone/Girls/app/HistoryList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clone/Girls/index.ios.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -624,16 +462,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clone/Girls/app/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.851851">
-          <caret line="119" column="31" selection-start-line="112" selection-start-column="24" selection-end-line="119" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="52" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Girls/index.ios.js">
+    <entry file="file://$PROJECT_DIR$/clone/Girls/app/WebViewPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.13625304">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -641,25 +479,17 @@
     <entry file="file://$PROJECT_DIR$/project/Girls/app/WebViewPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="e#0#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clone/Girls/app/WebViewPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2159383">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Girls/app/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3074205">
-          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.20588236">
+          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
           <folding />
         </state>
       </provider>
