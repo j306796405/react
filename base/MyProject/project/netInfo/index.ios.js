@@ -11,7 +11,7 @@ var {
 var MyProject = React.createClass({
     render: function(){
         return(
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <Text>NetInfo</Text>
             </View>
         )
@@ -36,7 +36,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',

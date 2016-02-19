@@ -41,7 +41,7 @@ class HistoryList extends Component {
         : (<View/>) ;
 
         return (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <NavigationBar
                     backHidden={false}
                     barTintColor='white'
@@ -148,7 +148,7 @@ class HistoryList extends Component {
 }
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         backgroundColor: '#252528'
     },

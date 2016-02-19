@@ -19,7 +19,7 @@ var About = React.createClass({
 
   render: function(){
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={styles.base_container}>
 
         <View style={styles.wrapper}>
           <Image style={styles.avatar} source={require('image!me_1')}></Image>
@@ -53,7 +53,7 @@ var About = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     flex:1,
   },
   wrapper:{

@@ -95,7 +95,7 @@ var Home = React.createClass({
     }
 
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={styles.base_container}>
         <View style={styles.itemRow}>
           {Items1}
         </View>
@@ -109,7 +109,7 @@ var Home = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     flex:1,
     padding:10,
   },

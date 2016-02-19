@@ -75,7 +75,7 @@ class MyProject extends Component {
         }
 
         return (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <View style={styles.topButtons}>
                     {this.renderButton(0)}
                     {this.renderButton(1)}
@@ -102,7 +102,7 @@ class MyProject extends Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',

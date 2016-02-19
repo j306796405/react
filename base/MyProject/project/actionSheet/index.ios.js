@@ -11,7 +11,7 @@ var {
 var MyProject = React.createClass({
     render: function(){
         return (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <Text style={styles.item} onPress={this.tip}>showActionSheetWithOptions</Text>
                 <Text style={styles.item} onPress={this.share}>showShareActionSheetWithOptions</Text>
             </View>
@@ -43,7 +43,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         marginTop: 25
     },

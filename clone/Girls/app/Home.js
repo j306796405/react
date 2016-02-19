@@ -99,7 +99,7 @@ class Home extends Component {
         let content = this.state.isLoading
             ? (<View style={{backgroundColor: 'black', flex: 1}}/>)
             : (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <View style={styles.headerWrapper}>
                     <Image source={{uri: this.homePageContent.福利[0].url}} style={{flex: 1}}/>
                     <View style={styles.editorWrapper}>
@@ -204,8 +204,8 @@ class Home extends Component {
 }
 
 var styles = StyleSheet.create({
-    container: {
-        flex: 1
+    base_container: {
+        flex: 1,
     },
     content: {
         backgroundColor: '#434243',

@@ -13,7 +13,7 @@ var {
 var MyProject = React.createClass({
     render: function(){
         return(
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <View style={{borderWidth: 1, borderColor: 'red', height: 40,
                  marginBottom: 20}}></View>
                 <View style={{borderWidth: 1/PixelRatio.get(), borderColor: 'red', height: 40}}></View>
@@ -23,7 +23,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         marginTop: 25
     }

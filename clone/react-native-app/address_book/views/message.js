@@ -39,7 +39,7 @@ var Message = React.createClass({
     }
 
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={styles.base_container}>
         <View style={{height:50,padding:7,}}>
           <TextInput style={styles.search} placeholder="搜索"/>
         </View>
@@ -54,7 +54,7 @@ var Message = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     flex:1,
     backgroundColor:'#F5F5F5',
     flexDirection:'column'

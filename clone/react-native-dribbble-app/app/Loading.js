@@ -8,7 +8,7 @@ var {
 var Loading = React.createClass({
   render: function() {
     return (
-      <View style={[styles.container, styles.centerText]}>
+      <View style={[styles.base_container, styles.centerText]}>
         <ActivityIndicatorIOS
             //前面没传值 这里夏几把乱写有鸟用啊
             animating={this.props.isLoading}
@@ -21,7 +21,7 @@ var Loading = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container: {
+  base_container: {
     flex: 1,
     backgroundColor: "green",
     flexDirection: "column",

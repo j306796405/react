@@ -20,7 +20,7 @@ var MyProject = React.createClass({
         return (
             <Camera
                 ref="cam"
-                style={styles.container}
+                style={styles.base_container}
                 onBarCodeRead={this._onBarCodeRead}
                 type={this.state.cameraType}
             >
@@ -58,7 +58,7 @@ var MyProject = React.createClass({
 
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',

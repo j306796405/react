@@ -15,7 +15,7 @@ var {
 var address_book = React.createClass({
   render: function() {
     return (
-      <View style={styles.container}>
+      <View style={styles.base_container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
@@ -31,7 +31,7 @@ var address_book = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container: {
+  base_container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',

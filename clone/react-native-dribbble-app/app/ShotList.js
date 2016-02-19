@@ -203,7 +203,7 @@ var ShotList = React.createClass({
       />;
 
     return (
-      <View style={styles.container}>
+      <View style={styles.base_container}>
         <View style={styles.separator} />
         {content}
       </View>
@@ -213,7 +213,7 @@ var ShotList = React.createClass({
 
 
 var styles = StyleSheet.create({
-  container: {
+  base_container: {
     flex: 1,
     backgroundColor: "white",
     flexDirection: "column",

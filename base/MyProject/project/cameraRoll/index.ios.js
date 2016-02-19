@@ -18,7 +18,7 @@ var MyProject = React.createClass({
     },
     render: function(){
         return(
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <Text onPress={this.saveImg.bind(this, 'city.jpg', '3.jpeg')}>
                     保存图片到相册
                 </Text>
@@ -55,7 +55,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center'

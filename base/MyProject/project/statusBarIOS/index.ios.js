@@ -17,13 +17,13 @@ StatusBarIOS.setNetworkActivityIndicatorVisible(true);
 var MyProject = React.createClass({
     render: function(){
         return(
-            <View style={styles.container}></View>
+            <View style={styles.base_container}></View>
         )
     }
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         backgroundColor: '#1f89ff'
     }

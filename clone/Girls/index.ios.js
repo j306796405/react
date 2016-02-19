@@ -24,7 +24,7 @@ class Gank extends Component {
     render() {
         return (
             <Navigator
-                style={styles.container}
+                style={styles.base_container}
                 initialRoute={{
                     component: Home
                 }}
@@ -40,7 +40,7 @@ class Gank extends Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1
     }
 })

@@ -241,7 +241,7 @@ var Shopping = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
     },
     row: {
@@ -317,7 +317,7 @@ var MyProject = React.createClass({
     render: function () {
         return (
             <NavigatorIOS
-                style={styles.container}
+                style={styles.base_container}
                 initialRoute={
                     {
                         component: List,

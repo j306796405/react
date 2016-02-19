@@ -15,7 +15,7 @@ var width = Dimensions.get('window').width,
 var MyProject = React.createClass({
     render: function(){
         return(
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <WebView
                     injectedJavaScript="alert('欢迎使用React Native')"
                     bounces={true}
@@ -29,7 +29,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1
     }
 })

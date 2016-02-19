@@ -10,7 +10,7 @@ var {
 var MyProject = React.createClass({
     render: function(){
         return(
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <Text style={styles.item} onPress={this.tip}>提示对话框</Text>
                 <Text style={styles.item} onPress={this.input}>输入对话框</Text>
             </View>
@@ -51,7 +51,7 @@ var MyProject = React.createClass({
 })
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         marginTop: 25
     },

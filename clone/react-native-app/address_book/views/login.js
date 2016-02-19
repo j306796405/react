@@ -18,7 +18,7 @@ var Login = React.createClass({
 
   render: function(){
     return (
-      <View style={styles.container}>
+      <View style={styles.base_container}>
         <View>
           <Image style={styles.logo} source={require('image!logo')}></Image>
         </View>
@@ -47,7 +47,7 @@ var Login = React.createClass({
 
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     marginTop:50,
     alignItems:'center',
   },

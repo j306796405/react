@@ -55,7 +55,7 @@ class About extends Component {
             </View>
         );
         return (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <ScrollView>
                     <Image source={require('./images/gank_launcher.png')} style={styles.imgLauncher}/>
                     <Text style={styles.versionText}>干 客</Text>
@@ -77,7 +77,7 @@ class About extends Component {
 }
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         flex: 1,
         backgroundColor: '#252528'
     },

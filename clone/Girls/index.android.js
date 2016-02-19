@@ -14,7 +14,7 @@ import React, {
 class Gank extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={styles.base_container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
@@ -30,7 +30,7 @@ class Gank extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  base_container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',

@@ -42,7 +42,7 @@ class DailyContent extends Component {
 
         //needsOffscreenAlphaCompositing renderToHardwareTextureAndroid是啥东西
         return (
-            <View style={styles.container}>
+            <View style={styles.base_container}>
                 <ScrollView
                     bounces={false}
                     onScroll={this.onScroll.bind(this)}
@@ -100,7 +100,7 @@ class DailyContent extends Component {
 }
 
 var styles = StyleSheet.create({
-    container: {
+    base_container: {
         backgroundColor: '#252528',
         flex: 1
     },

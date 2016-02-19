@@ -37,7 +37,7 @@ var Manager = React.createClass({
 
 
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={styles.base_container}>
         <View style={styles.wrapper}>
           {JSXDOM}
         </View>
@@ -69,7 +69,7 @@ var Manager = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     flex:1,
     backgroundColor:'#F5F5F5',
   },

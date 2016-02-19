@@ -53,7 +53,7 @@ var MenuList = React.createClass({
     var left = this.renderLeft();
     var right = this.renderRight();
     return (
-      <View style={styles.container}>
+      <View style={styles.base_container}>
         <View style={[styles.row, styles.header]} ref="header">
           {header}
         </View>
@@ -186,7 +186,7 @@ var MenuList = React.createClass({
 });
 
 var styles = StyleSheet.create({
-  container:{
+  base_container:{
     height:240,
     flex:1,
     borderTopWidth:1,
