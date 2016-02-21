@@ -18,6 +18,7 @@ import React, {
 import DateUtils from './utils/DateUtils';
 import RequestUtil from './utils/RequestUtils';
 import WebViewPage from './WebViewPage';
+import HistoryList from './HistoryList';
 
 class Home extends Component {
     // 构造
@@ -69,7 +70,6 @@ class Home extends Component {
             return;
         }
         this.homeData = this.listData[0].results;
-        console.log(this.homeData);
         //资源加载完成
         this.setState({
             isLoading: false
@@ -110,8 +110,8 @@ class Home extends Component {
                         <TouchableHighlight
                             style={styles.buttonStyle}
                             underlayColor={'green'}
-                            opPress={() => {
-                                console.log('click button');
+                            onPress={() => {
+                                this._skipToHistory(this.listData);
                             }}
                         >
                             <Text style={styles.toHistory}>查看往期</Text>
@@ -201,11 +201,11 @@ class Home extends Component {
         })
     }
 
-    _skipToHistory() {
-        console.log('去列表');
-        /*this.props.navigator.push({
-
-        })*/
+    _skipToHistory(listData) {
+        this.props.navigator.push({
+            component: HistoryList,
+            passProps: {listData}
+        })
     }
 }
 

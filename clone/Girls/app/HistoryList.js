@@ -43,20 +43,20 @@ class HistoryList extends Component {
         return (
             <View style={styles.base_container}>
                 <NavigationBar
-                    backHidden={false}
-                    barTintColor='white'
-                    barStyle={styles.navbar}
-                    title='History'
-                    actionName='About'
-                    backFunc={() => {
+                backHidden={false}
+                barTintColor='white'
+                barStyle={styles.navbar}
+                title='History'
+                actionName='About'
+                backFunc={() => {
                         this.props.navigator.pop();
                       }}
-                    actionFunc={() => {
+                actionFunc={() => {
                         this.props.navigator.push({
                           component: About
                         })
                       }}
-                />
+            />
                 <ListView
                     dataSource={this.state.dataSource}
                     renderRow={this.renderItem.bind(this)}
