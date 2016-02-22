@@ -1,0 +1,2 @@
+1: 块级元素默认 boxSizing: border-box, 所以paddingTop不超过height的话 计算在height中
+2: 父节点用了alignItem属性,子块级节点必须设置宽度否则无法显示,如果要达到100%的效果可以设置alignSelf:'stretch', 图片元素貌似不受影响

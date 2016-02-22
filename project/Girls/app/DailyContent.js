@@ -5,9 +5,10 @@
  */
 'use strict'
 
-import React from 'react-native'
-import NavigatorBar from './views/NavigatorBar/index'
-import WebViewPage from './WebViewPage'
+import React from 'react-native';
+import NavigatorBar from './views/NavigatorBar/index';
+import WebViewPage from './WebViewPage';
+import Lightbox from 'react-native-lightbox';
 
 var {
     StyleSheet,
@@ -16,7 +17,7 @@ var {
     Component,
     Image,
     Text
-    } = React
+    } = React;
 
 const HEADER_HEIGHT = 400
 
@@ -53,7 +54,9 @@ class DailyContent extends Component {
                     onScroll={this.onScroll.bind(this)}
                     scrollEventThrottle={5}
                 >
-                    <Image source= {{uri: thumbnail}} style={styles.headerImage} />
+                    <Lightbox navigator={this.props.navigator} renderContent={this.renderLightBox.bind(this)}>
+                        <Image source= {{uri: thumbnail}} style={[styles.headerImage]}/>
+                    </Lightbox>
                     <View style={{flex:1}}>
                         {this.getViews(rowData)}
                     </View>
@@ -71,6 +74,18 @@ class DailyContent extends Component {
                 {this.getItems(rowData, category)}
             </View>
         ))
+    }
+
+    renderLightBox() {
+        let rowData = this.props.rowData;
+        let thumbnail = (typeof rowData.results.福利[0].url !== 'undefined') ? rowData.results.福利[0].url : '';
+        console.log(thumbnail);
+        //<Image source= {require('./images/banner.jpg')} style={{resizeMode: 'contain', flex: 1}} />
+        return (
+            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                <Image source= {{uri: 'http://bpic.pic138.com/14/67/54/68b1OOOPIC08.jpg!wt'}} style={{resizeMode: 'contain', flex: 1, alignSelf: 'center'}} />
+            </View>
+        );
     }
 
     getItems (contentData, category) {
