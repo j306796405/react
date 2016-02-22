@@ -80,10 +80,11 @@ class DailyContent extends Component {
         let rowData = this.props.rowData;
         let thumbnail = (typeof rowData.results.福利[0].url !== 'undefined') ? rowData.results.福利[0].url : '';
         console.log(thumbnail);
-        //<Image source= {require('./images/banner.jpg')} style={{resizeMode: 'contain', flex: 1}} />
+        //<Image source= {require('./images/banner.jpg')} style={{resizeMode: 'contain', flex: 1}} /> thumbnail
+        // http://ww3.sinaimg.cn/large/7a8aed7bjw1f17x6wmh09j20f00m1mzh.jpg
         return (
-            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-                <Image source= {{uri: 'http://bpic.pic138.com/14/67/54/68b1OOOPIC08.jpg!wt'}} style={{resizeMode: 'contain', flex: 1, alignSelf: 'center'}} />
+            <View style={{flex: 1, justifyContent: 'center', backgroundColor: 'red'}}>
+                <Image source= {require('./images/banner.jpg')} style={{resizeMode: 'contain', flex: 1}} />
             </View>
         );
     }
